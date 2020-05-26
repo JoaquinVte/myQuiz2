@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FifthFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@mipmap/ic_finish_foreground" />
+
+        <TextView
+            android:id="@+id/resultadoFinal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="@string/error"
+            android:textAlignment="gravity" />
+
+        <Button
+            android:id="@+id/button_fifth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/start_again" />
+    </LinearLayout>
+
+</FrameLayout>

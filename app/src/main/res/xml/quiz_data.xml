@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <quizquestion>
+        <question>Cual es la capital de EEUU ?</question>
+        <answer correct="false">New York City</answer>
+        <answer correct="true">Washington D.C.</answer>
+        <answer correct="false">Chicago</answer>
+        <answer correct="false">Philadelphia</answer>
+    </quizquestion>
+
+    <quizquestion>
+        <question>Cual es la capital de España ?</question>
+        <answer correct="false">Lisboa</answer>
+        <answer correct="false">Barcelona</answer>
+        <answer correct="false">Paris</answer>
+        <answer correct="true">Madrid</answer>
+    </quizquestion>
+    <quizquestion>
+        <question>Cual es la capital de Francia ?</question>
+        <answer correct="true">Paris</answer>
+        <answer correct="false">Marsella</answer>
+        <answer correct="false">Lion</answer>
+        <answer correct="false">Viena</answer>
+    </quizquestion>
+    <quizquestion>
+        <question>Cual es la capital de Portugal ?</question>
+        <answer correct="false">Berlin</answer>
+        <answer correct="false">Roma</answer>
+        <answer correct="true">Lisboa</answer>
+        <answer correct="false">Amsterdam</answer>
+    </quizquestion>
+    <quizquestion>
+        <question>Cual es la capital de Alemania ?</question>
+        <answer correct="true">Berlin</answer>
+        <answer correct="false">Paris</answer>
+        <answer correct="false">Londres</answer>
+        <answer correct="false">Madrid</answer>
+    </quizquestion>
+</resources>
